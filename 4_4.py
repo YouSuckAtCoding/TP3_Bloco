@@ -80,6 +80,7 @@ for line in file:
     add = line.replace("\n", "")
     prefixes.append(ipaddress.IPv4Network(add).exploded)
     trie.insert(add)
+file.close()
 
 ip = "192.168.1.55"
 
