@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 from multiprocessing.pool import ThreadPool
 from Node import Node
 from collections import deque

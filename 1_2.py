@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 from Node import Node
 
 def get_successor(curr):

@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 from Node import Node
 from multiprocessing import Process, Value
 from collections import deque
